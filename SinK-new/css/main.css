@@ -1,0 +1,120 @@
+/* body, div, section, header, footer, ul, p, li{
+  border: 1px solid darkgrey;
+} */
+/*----------------------------- header ------------------- */
+header{
+  background-color: navy;
+  color: blue;
+  text-shadow: 1px 0 10px black;
+  margin: 0px;
+  clear: both;
+  width: 100%;
+  height: 35vh;
+}
+.title{
+  width: 40%;
+  height: 20vh;
+  background-color: white;
+  margin-left: 27%
+}
+.title h1, .title span{
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-size: 5vh;
+}
+.title + ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: 3vh;
+  margin-left: 20vh;
+}
+ul{
+  margin-left: 15vh;
+}
+header input{
+  width: 60%;
+  height: 5vh;
+  font-size: 3vh;
+  margin-left: 25vh
+}
+header button{
+  border: 3px solid grey;
+  border-radius: 50%;
+  width: 10%;
+  height: 6vh;
+}
+
+/*----------------------------- header ------------------- */
+/*------------------------------ main ---------------------*/
+.container{
+  width: 100%;
+  height: 200vh;
+}
+
+/*left side-----------------------*/
+.left{
+  width: 40%;
+  height: 200vh;
+  float: left;
+  background-color: silver;
+}
+.leftTop, .leftBottom{
+  width: 100%;
+  float: left;
+  height: 100vh;
+}
+p{
+  width: 80%;
+  height: 80vh;
+  margin-left: 7%;
+  margin-top: 9vh;
+  font-size: 25px;
+}
+.vidDetails{
+  width: 80%;
+  margin-left: 9%;
+  background-color: white;
+}
+iframe{
+  width: 90%;
+  height: 80vh;
+  margin-left: 4.5%;
+  margin-top:5vh;
+}
+.vidDetails span{
+  width: 100%;
+  height: 3vh;
+  font-size: 3vh;
+  display: block;
+}
+/*right side-------------------------*/
+.right{
+  width: 59%;
+  height: 200vh;
+  float: left;
+  background-color: silver;
+}
+ .leftTopr, .rightTopr{
+   width: 49%;
+   height: 100vh;
+   float: left;
+ }
+ .leftTopr{
+   background-image: url('https://www.wpclipart.com/page_frames/more_frames/more_frames_4/spotlight_background_page.png');
+ }
+
+ .rightBottom{
+   width: 100%;
+   height: 100vh;
+ }
+ .rightBottom h2{
+   width: 100%;
+   text-align: center;
+   color: navy;
+   font-size: 40px;
+ }
+ .rightBottom li{
+   background-color: white;
+
+ }
